@@ -2,163 +2,163 @@
 
 ---
 
-### TC-FORM-01 — Campo obrigatório vazio
+### TC-FORM-01 — Required field left empty
 
-**Objetivo:**  
-Garantir que o campo obrigatório acusa erro quando está vazio.
+**Objective:**  
+Ensure that required fields display an error message when left empty.
 
-**Passos:**
-1. Acessar a página de formulário
-2. Deixar todos os campos obrigatórios vazios
-3. Tentar enviar o formulário
+**Steps:**
+1. Access the form page
+2. Leave all required fields empty
+3. Attempt to submit the form
 
-**Resultado esperado:**  
-Mensagem de erro indicando que o campo é obrigatório.
-
----
-
-### TC-FORM-02 — Validação de email inválido
-
-**Objetivo:**  
-Verificar a validação do formato de email.
-
-**Dados de teste:**
-- Email: `testemail` (sem @ ou domínio)
-
-**Passos:**
-1. Preencher o campo email com formato inválido
-2. Preencher os demais campos com valores válidos
-3. Enviar o formulário
-
-**Resultado esperado:**  
-Mensagem de erro informando **“Formato de email inválido”**.
+**Expected result:**  
+An error message is displayed indicating that the field is required.
 
 ---
 
-### TC-FORM-03 — Limite de caracteres ultrapassado
+### TC-FORM-02 — Invalid email validation
 
-**Objetivo:**  
-Garantir que existe limite de tamanho para campos de texto.
+**Objective:**  
+Verify email format validation.
 
-**Dados de teste:**
-- Campo texto com mais de 255 caracteres (ex: repetição de `AAAAA...`)
+**Test data:**
+- Email: `testemail` (missing `@` and domain)
 
-**Passos:**
-1. Inserir um valor maior que o permitido
-2. Enviar o formulário
+**Steps:**
+1. Enter an invalid email format in the email field
+2. Fill in the remaining fields with valid data
+3. Submit the form
 
-**Resultado esperado:**  
-O sistema impede o envio ou exibe mensagem de erro informando limite excedido.
-
----
-
-### TC-FORM-04 — Campo numérico com caractere inválido
-
-**Objetivo:**  
-Verificar a validação de campos numéricos.
-
-**Dados de teste:**
-- Número: `abc123`
-
-**Passos:**
-1. Inserir caracteres alfabéticos em um campo numérico
-2. Enviar o formulário
-
-**Resultado esperado:**  
-Mensagem de erro indicando formato inválido.
+**Expected result:**  
+An error message is displayed stating **“Invalid email format”**.
 
 ---
 
-### TC-FORM-05 — Validação de senha de acordo com padrão
+### TC-FORM-03 — Character limit exceeded
 
-**Objetivo:**  
-Verificar se a senha segue os padrões de segurança definidos.
+**Objective:**  
+Ensure that a maximum character limit is enforced for text fields.
 
-**Dados de teste:**
-- Senha: `123` (curta ou sem requisitos mínimos)
+**Test data:**
+- Text field with more than 255 characters (e.g., repeated `AAAAA...`)
 
-**Passos:**
-1. Preencher o campo senha com um valor que não atende às regras
-2. Enviar o formulário
+**Steps:**
+1. Enter a value exceeding the allowed character limit
+2. Submit the form
 
-**Resultado esperado:**  
-Mensagem indicando os requisitos mínimos de senha (ex: “mínimo 8 caracteres”).
+**Expected result:**  
+The system prevents submission or displays an error indicating that the character limit has been exceeded.
 
 ---
 
-### TC-FORM-06 — Envio com dados válidos
+### TC-FORM-04 — Numeric field with invalid characters
 
-**Objetivo:**  
-Verificar que o formulário aceita inputs corretos.
+**Objective:**  
+Verify validation of numeric input fields.
 
-**Dados de teste:**
+**Test data:**
+- Number: `abc123`
+
+**Steps:**
+1. Enter alphabetic characters into a numeric field
+2. Submit the form
+
+**Expected result:**  
+An error message is displayed indicating an invalid format.
+
+---
+
+### TC-FORM-05 — Password validation according to defined rules
+
+**Objective:**  
+Verify that the password follows the defined security requirements.
+
+**Test data:**
+- Password: `123` (too short or missing required criteria)
+
+**Steps:**
+1. Enter a password that does not meet the security rules
+2. Submit the form
+
+**Expected result:**  
+An error message is displayed indicating the minimum password requirements (e.g., “minimum 8 characters”).
+
+---
+
+### TC-FORM-06 — Submission with valid data
+
+**Objective:**  
+Verify that the form accepts valid input data.
+
+**Test data:**
 - Email: `user@example.com`
-- Número: `12345`
-- Texto: `Teste QA`
+- Number: `12345`
+- Text: `QA Test`
 
-**Passos:**
-1. Preencher todos os campos com valores válidos
-2. Clicar em **Enviar**
+**Steps:**
+1. Fill in all fields with valid values
+2. Click **Submit**
 
-**Resultado esperado:**  
-Formulário enviado com sucesso, exibindo mensagem de confirmação.
-
----
-
-### TC-FORM-07 — Campo read-only
-
-**Objetivo:**  
-Validar que campos marcados como **read-only** não podem ser editados.
-
-**Passos:**
-1. Tentar alterar o campo configurado como read-only
-
-**Resultado esperado:**  
-Campo não pode ser editado.
+**Expected result:**  
+The form is successfully submitted and a confirmation message is displayed.
 
 ---
 
-### TC-FORM-08 — Campo desabilitado
+### TC-FORM-07 — Read-only field
 
-**Objetivo:**  
-Confirmar que campos desabilitados não aceitam entrada de dados.
+**Objective:**  
+Validate that fields marked as **read-only** cannot be edited.
 
-**Passos:**
-1. Tentar inserir qualquer valor no campo desabilitado
+**Steps:**
+1. Attempt to modify the read-only field
 
-**Resultado esperado:**  
-Campo não aceita valores.
-
----
-
-### TC-FORM-09 — Upload de arquivo permitido
-
-**Objetivo:**  
-Testar a funcionalidade de upload de arquivos válidos.
-
-**Dados de teste:**
-- Arquivo válido (`.jpg`, `.pdf`)
-
-**Passos:**
-1. Selecionar um arquivo permitido
-2. Realizar o upload
-
-**Resultado esperado:**  
-Upload realizado com sucesso.
+**Expected result:**  
+The field cannot be edited.
 
 ---
 
-### TC-FORM-10 — Upload de arquivo inválido
+### TC-FORM-08 — Disabled field
 
-**Objetivo:**  
-Verificar as restrições de tipo de arquivo no upload.
+**Objective:**  
+Confirm that disabled fields do not accept user input.
 
-**Dados de teste:**
-- Arquivo inválido (`.exe` ou formato não permitido)
+**Steps:**
+1. Attempt to enter any value into the disabled field
 
-**Passos:**
-1. Selecionar um arquivo inválido
-2. Tentar realizar o upload
+**Expected result:**  
+The field does not accept any input.
 
-**Resultado esperado:**  
-Mensagem de erro informando que o formato do arquivo não é permitido.
+---
+
+### TC-FORM-09 — Valid file upload
+
+**Objective:**  
+Test the upload functionality with allowed file types.
+
+**Test data:**
+- Valid file (`.jpg`, `.pdf`)
+
+**Steps:**
+1. Select an allowed file
+2. Upload the file
+
+**Expected result:**  
+The file is uploaded successfully.
+
+---
+
+### TC-FORM-10 — Invalid file upload
+
+**Objective:**  
+Verify file type restrictions during upload.
+
+**Test data:**
+- Invalid file (`.exe` or unsupported format)
+
+**Steps:**
+1. Select an invalid file
+2. Attempt to upload the file
+
+**Expected result:**  
+An error message is displayed indicating that the file format is not allowed.
