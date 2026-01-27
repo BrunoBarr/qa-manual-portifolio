@@ -1,102 +1,124 @@
-# Manual QA Testing Portfolio – SauceDemo
+# Manual QA Testing Portfolio
 
-This project was created as part of my career transition into **Quality Assurance**, leveraging my technical background and problem-solving experience.
+This repository contains my Manual QA Testing Portfolio, created as part of my career transition into Quality Assurance.  
+It demonstrates structured manual testing practices, clear documentation, and a strong problem-solving mindset built from a technical industrial background.
 
----
+## Project Overview
 
-## 📌 Project Overview
+This portfolio showcases my skills in:
 
-This repository contains a **Manual QA testing portfolio** created to demonstrate skills in:
-- Software Quality Assurance
-- Manual Testing
-- Test Documentation
-- Bug Reporting
+- Manual Software Testing  
+- Test Case Design  
+- Test Documentation  
+- Exploratory Testing  
+- Bug Reporting  
+- QA Best Practices  
 
-The **system under test** is **SauceDemo**, a demo e-commerce application widely used for QA practice.
+The repository includes multiple systems under test, commonly used in QA practice, to demonstrate versatility and real-world testing scenarios.
 
----
+## Systems Under Test
 
-## 🖥️ System Under Test
-
-- **Application:** SauceDemo  
+### 1. SauceDemo
 - **URL:** https://www.saucedemo.com  
 - **Type:** Web application (E-commerce)  
-- **Test Environment:** Desktop / Web Browser  
+- **Purpose:** Functional testing of a complete purchase flow  
 
----
+### 2. DemoQA – Automation Practice Form
+- **URL:** https://demoqa.com/automation-practice-form  
+- **Type:** Web application (Form-based)  
+- **Purpose:** Form validation and input testing  
 
-## 🎯 Test Objectives
+## Test Objectives
 
-- Validate core functionalities of the application  
-- Identify functional defects  
-- Ensure correct behavior under normal and edge conditions  
-- Demonstrate structured manual testing practices  
+- Validate core application functionalities  
+- Verify form validation rules and user input handling  
+- Identify functional and usability issues  
+- Apply structured manual QA methodologies  
+- Demonstrate professional QA documentation standards  
 
----
+## Test Scope
 
-## 📦 Test Scope
+### In Scope
 
-### ✅ In Scope
+**SauceDemo**
 - Login and authentication  
 - Product listing and sorting  
 - Shopping cart functionality  
 - Checkout process  
 
-### ❌ Out of Scope
+**DemoQA (Forms)**
+- Required fields validation  
+- Invalid input handling (email, phone number)  
+- Boundary testing  
+- File upload validation  
+- Successful form submission  
+
+### Out of Scope
+
 - Performance testing  
 - Security testing  
 - Load and stress testing  
+- API testing  
 - Mobile responsiveness  
 
----
-
-## 🧪 Test Types Performed
+## Test Types Performed
 
 - Functional Testing  
 - Smoke Testing  
 - Exploratory Testing  
 - Regression Testing (basic)  
+- Boundary Value Testing  
 
----
+## Test Documentation Structure
 
-## 📝 Test Documentation
+manual/
+├── test-cases        → Detailed manual test cases
+├── docs              → Test scope, scenarios, system overview
+└── bugreports        → Documented defects and observations
 
-- **Test Scenarios:** High-level scenarios covering core features  
-- **Test Cases:** Detailed step-by-step manual test cases with expected results  
-- **Bug Reports:** Structured defect reports including severity, priority, and evidence  
-- **Exploratory Testing:** Notes and observations from unscripted testing sessions  
+### Documentation Includes
 
----
+- Test Scenarios  
+- Detailed Test Cases (steps and expected results)  
+- Exploratory Testing Notes  
+- Bug Reports with severity and priority  
 
-## 🐞 Defect Reporting
+## Defect Reporting
 
-All identified defects are documented with:
+Defects are documented using a structured format, including:
+
 - Clear reproduction steps  
 - Expected vs. actual results  
-- Severity and priority classification  
-- Screenshots as evidence  
+- Severity and priority  
+- Environment information  
+- Notes and observations  
 
----
+Some demo systems may intentionally contain limited or inconsistent validations; these behaviors are documented as QA observations.
 
-## 🛠️ Tools Used
+## Tools Used
 
-- Brave Browser (Chromium-based)  
-- GitHub  
+- Web Browser (Chromium-based)  
+- Git & GitHub  
 - Markdown  
-- Spreadsheet (Excel)  
+- Visual Studio Code  
 
----
-
-## 👤 Author
+## Author
 
 **Bruno Barreto**  
 QA Analyst (Manual) — Career Transition  
-English Fluent | Remote-Ready  
+Technical Background | Manual Testing | English Fluent | Remote-Ready
 
-🔗 LinkedIn: https://www.linkedin.com/in/bbarretosilveira  
+**LinkedIn:** https://www.linkedin.com/in/bbarretosilveira  
 
----
+## Continuous Improvement
 
-## 🚀 Continuous Improvement
+This portfolio will continue to evolve with:
 
-This project will be continuously updated as I expand my QA knowledge and progress toward **test automation**.
+- Additional manual test cases  
+- Expanded bug reports  
+- New systems under test  
+- Future transition to test automation using Python  
+
+## Final Note
+
+This repository reflects my hands-on approach to Quality Assurance, emphasizing practical manual testing, structured test documentation, and analytical thinking. It showcases how I design test cases, explore system behavior, and document results following professional QA practices.
