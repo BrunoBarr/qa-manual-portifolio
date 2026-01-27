@@ -70,12 +70,12 @@ The repository includes multiple systems under test, commonly used in QA practic
 - Boundary Value Testing  
 
 ## Test Documentation Structure
-
+'''
 manual/
 ├── test-cases        → Detailed manual test cases
 ├── docs              → Test scope, scenarios, system overview
 └── bugreports        → Documented defects and observations
-
+'''
 ### Documentation Includes
 
 - Test Scenarios  
