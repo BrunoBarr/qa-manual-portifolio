@@ -8,7 +8,7 @@
 - Verify behavior for locked-out user
 
 ## Products
-- Verify product list is displayed after login
+- Verify product list is displayed after successful login
 - Verify products can be sorted by price (low to high)
 - Verify products can be sorted by price (high to low)
 

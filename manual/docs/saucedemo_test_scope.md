@@ -1,7 +1,7 @@
 # Test Scope – SauceDemo
 
 ## In Scope
-The following features are included in the testing scope:
+The following features are included in this testing cycle:
 - User login and logout
 - Product listing and sorting
 - Add and remove items from the shopping cart
@@ -12,7 +12,7 @@ The following areas are not covered in this testing cycle:
 - Performance testing
 - Security testing
 - Load and stress testing
-- Mobile and cross-browser compatibility
+- Mobile and cross-browser compatibility testing
 
 ## Test Types
 - Functional Testing

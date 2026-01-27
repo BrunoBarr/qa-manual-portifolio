@@ -1,5 +1,7 @@
 # Test Cases – SauceDemo
 
+---
+
 ## LOGIN
 
 ### TC-LOGIN-01 — Login with valid credentials
@@ -20,7 +22,7 @@ Registered user
 **Expected result:**  
 User is redirected to the products page.
 
-**Status:** Pass
+**Status:** Passed
 
 ---
 
@@ -39,7 +41,7 @@ User is redirected to the products page.
 **Expected result:**  
 Error message indicating invalid credentials.
 
-**Status:** Pass
+**Status:** Passed
 
 ---
 
@@ -52,7 +54,7 @@ Error message indicating invalid credentials.
 **Expected result:**  
 Error message requesting the username to be filled in.
 
-**Status:** Pass
+**Status:** Passed
 
 ---
 
@@ -70,7 +72,7 @@ Error message requesting the username to be filled in.
 **Expected result:**  
 Message informing that the user is locked out.
 
-**Status:** Pass
+**Status:** Passed
 
 ---
 
@@ -88,7 +90,7 @@ User logged in
 **Expected result:**  
 Product list is displayed correctly with name, price, and “Add to cart” button.
 
-**Status:** Pass
+**Status:** Passed
 
 ---
 
@@ -101,7 +103,7 @@ Product list is displayed correctly with name, price, and “Add to cart” butt
 **Expected result:**  
 Products are correctly sorted by ascending price.
 
-**Status:** Pass
+**Status:** Passed
 
 ---
 
@@ -117,7 +119,7 @@ Products are correctly sorted by ascending price.
 **Expected result:**  
 Product appears in the cart.
 
-**Status:** Pass
+**Status:** Passed
 
 ---
 
@@ -131,7 +133,7 @@ Product appears in the cart.
 **Expected result:**  
 Product is successfully removed.
 
-**Status:** Pass
+**Status:** Passed
 
 ---
 
@@ -153,7 +155,7 @@ Product is successfully removed.
 **Expected result:**  
 Purchase confirmation message.
 
-**Status:** Pass
+**Status:** Passed
 
 ---
 
@@ -167,4 +169,4 @@ Purchase confirmation message.
 **Expected result:**  
 Error message requesting completion of the required fields.
 
-**Status:** Pass
+**Status:** Passed
