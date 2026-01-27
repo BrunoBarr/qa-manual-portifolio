@@ -1,6 +1,6 @@
-# FORM VALIDATION – TEST CASES
+# DEMOQA FORM VALIDATION – TEST CASES
 
-**Application:** DemoQA – Automation Practice Form
+**Application:** DemoQA – Practice Form
 **Test Type:** Manual / Functional
 
 ---
@@ -18,6 +18,8 @@ Verify system behavior when mandatory fields are not filled.
 
 **Expected Result:**
 The form highlights required fields and prevents submission.
+
+**Status:** Passed
 
 ---
 
@@ -39,6 +41,8 @@ Verify email field validation with an invalid format.
 **Expected Result:**
 The system displays an error or does not accept the invalid email format.
 
+**Status:** Passed
+
 ---
 
 ### TC-FORM-03 — Mobile number length validation
@@ -59,6 +63,8 @@ Verify validation for mobile number length.
 **Expected Result:**
 The form prevents submission or highlights the mobile number field as invalid.
 
+**Status:** Passed
+
 ---
 
 ### TC-FORM-04 — Mobile number with non-numeric characters
@@ -78,6 +84,8 @@ Ensure that the mobile number field accepts only numeric values.
 **Expected Result:**
 The system prevents submission or rejects non-numeric input.
 
+**Status:** Passed
+
 ---
 
 ### TC-FORM-05 — Gender selection required
@@ -92,6 +100,8 @@ Verify that gender selection is mandatory.
 
 **Expected Result:**
 The form does not submit and indicates that gender selection is required.
+
+**Status:** Passed
 
 ---
 
@@ -116,6 +126,8 @@ Verify successful form submission with valid input data.
 **Expected Result:**
 The form is successfully submitted and a confirmation modal is displayed.
 
+**Status:** Passed
+
 ---
 
 ### TC-FORM-07 — Hobbies selection
@@ -131,6 +143,8 @@ Verify that one or more hobbies can be selected.
 
 **Expected Result:**
 Selected hobbies are displayed correctly in the submission confirmation.
+
+**Status:** Passed
 
 ---
 
@@ -152,6 +166,8 @@ Verify file upload functionality with a valid file.
 **Expected Result:**
 The file is uploaded and shown in the confirmation modal.
 
+**Status:** Passed
+
 ---
 
 ### TC-FORM-09 — File upload (unsupported file type)
@@ -169,7 +185,9 @@ Verify system behavior when uploading an unsupported file type.
 2. Submit the form
 
 **Expected Result:**
-The system accepts the file or does not validate file type (to be logged as QA observation or potential defect).
+The system accepts the file or does not validate file type.
+
+**Status:** Failed
 
 ---
 
@@ -185,6 +203,8 @@ Verify that City options depend on the selected State.
 
 **Expected Result:**
 Only cities related to the selected state are available.
+
+**Status:** Passed
 
 ---
 
