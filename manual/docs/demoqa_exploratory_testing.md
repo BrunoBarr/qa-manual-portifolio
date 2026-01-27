@@ -17,6 +17,7 @@ The form was tested without predefined scripts, focusing on field validations, u
 - Required fields are enforced
 - Invalid email formats are rejected
 - Form submission succeeds only when mandatory fields are correctly filled
+- The file upload button is very small and poorly visible, which may impact usability and accessibility.
 
 ## Risks & Limitations
 - Limited validation feedback for some fields

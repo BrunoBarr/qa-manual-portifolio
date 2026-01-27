@@ -6,6 +6,8 @@ BUG-DEMOQA-002
 ## Title
 File upload button is too small and difficult to notice
 
+**Detected during:** Exploratory Testing
+
 ## Application
 DemoQA – Automation Practice Form
 
