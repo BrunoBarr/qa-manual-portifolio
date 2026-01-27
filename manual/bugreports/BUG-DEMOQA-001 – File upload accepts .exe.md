@@ -44,7 +44,11 @@ Allowing executable files may pose a security risk in real-world applications an
 ### Evidence
 
 **1. Executable file selected**
+
 ![Executable file accepted](evidence/exe_file_selected.png)
 
+---
+
 **2. Form submitted successfully**
+
 ![Executable file accepted](evidence/exe_file_selected_2.png)
