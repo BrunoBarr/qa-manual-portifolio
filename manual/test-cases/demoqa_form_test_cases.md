@@ -189,6 +189,9 @@ The system accepts the file or does not validate file type.
 
 **Status:** Failed
 
+**Related Bug:**  
+BUG-DEMOQA-001 – File upload accepts .exe
+
 ---
 
 ### TC-FORM-10 — State and City dependency
