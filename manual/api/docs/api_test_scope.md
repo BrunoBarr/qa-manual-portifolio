@@ -13,4 +13,4 @@
 - Authorization
 - Performance testing
 - Security testing
-- Data persistence validation
+- Data persistence validation (API is mock-only)

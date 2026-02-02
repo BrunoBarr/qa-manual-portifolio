@@ -19,3 +19,8 @@ RESTful API
 
 ## Purpose of Testing
 Validate API behavior, request/response structure, status codes, and data consistency from a QA API testing perspective.
+
+## API Behavior Notes
+
+- - Requests to non-existent resources (e.g. /posts/9999) return HTTP 404 with an empty response body.
+- DELETE requests do not actually remove data due to mock API behavior.

@@ -28,6 +28,11 @@ The repository includes multiple systems under test, commonly used in QA practic
 - **Type:** Web application (Form-based)  
 - **Purpose:** Form validation and input testing  
 
+### 3. JSONPlaceholder API
+- **URL:** https://jsonplaceholder.typicode.com  
+- **Type:** Public REST API (Fake API)  
+- **Purpose:** Manual API testing using CRUD operations (GET, POST, PUT, PATCH, DELETE)  
+
 ## Test Objectives
 
 - Validate core application functionalities  
@@ -53,12 +58,17 @@ The repository includes multiple systems under test, commonly used in QA practic
 - File upload validation  
 - Successful form submission  
 
+**JSONPlaceholder API**
+- CRUD operations (GET, POST, PUT, PATCH, DELETE)
+- Positive and negative API scenarios
+- Status code validation
+- Response body validation
+
 ### Out of Scope
 
 - Performance testing  
 - Security testing  
 - Load and stress testing  
-- API testing  
 - Mobile responsiveness  
 
 ## Test Types Performed
@@ -67,14 +77,15 @@ The repository includes multiple systems under test, commonly used in QA practic
 - Smoke Testing  
 - Exploratory Testing  
 - Regression Testing (basic)  
-- Boundary Value Testing  
+- Boundary Value Testing 
+- Manual API Testing 
 
 ## Test Documentation Structure
 ``` 
 manual/
 ├── test-cases        → Detailed manual test cases
 ├── docs              → Test scope, scenarios, system overview
-└── bugreports        → Documented defects and observations
+└── bug-reports        → Documented defects and observations
 ```
 
 ### Documentation Includes
@@ -99,6 +110,7 @@ Some demo systems may intentionally contain limited or inconsistent validations;
 ## Tools Used
 
 - Web Browser (Chromium-based)  
+- Postman (Manual API Testing)  
 - Git & GitHub  
 - Markdown  
 - Visual Studio Code  
@@ -118,7 +130,8 @@ This portfolio will continue to evolve with:
 - Additional manual test cases  
 - Expanded bug reports  
 - New systems under test  
-- Future transition to test automation using Python  
+- Advanced API testing and validation
+- Future transition to test automation using Python
 
 ## Final Note
 
